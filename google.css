@@ -2,7 +2,7 @@
 
 body{
 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Arial', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 
 
 }
@@ -20,16 +20,66 @@ li{
 }
 
 #content {
-
-margin-left:auto;
-margin-right: auto;
+    width: 200%;
+    margin: 0 auto;
 
 }
+
+input[type=submit]{
+
+    margin: 0 30px;
+    background-color:lightgray;
+    padding: 10px 10px 10px 10px;
+    border: none;
+
+}
+
+.topnav{
+
+text-align: right;
+
+}
+
+#content #button{
+margin: 0 auto;
+
+
+}
+
 
 .bottomnav{
 
 background-color:lightgrey;
 border: black;
 -webkit-appearance: none;
+text-align: center;
+margin-top:500px;
+
+
+
+
+
+}
+
+
+ #text{
+
+border-radius: 10px;
+
+}
+
+
+
+/*border-style:solid;
+border-color:black;
+*/
+border: solid black 1px;
+}
+
+.bottomnav #tbn{
+
+border:black solid 1px;
+text-align:left;
+
 
 }
